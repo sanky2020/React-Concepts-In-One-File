@@ -9,4 +9,4 @@ React Redux provides a small API with two key features: Provider and connect.
 * The connect method from React Redux takes two optional arguments, mapStateToProps() and mapDispatchToProps(). They are optional because you may have a component that only needs access to state but doesn't need to dispatch any actions, or vice versa.
 e.g) connect(mapStateToProps, mapDispatchToProps)(MyComponent)
 
-# Note: If you want to omit one of the arguments to the connect method, you pass null in its place.
+## Note: If you want to omit one of the arguments to the connect method, you pass null in its place.
